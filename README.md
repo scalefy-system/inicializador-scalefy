@@ -77,7 +77,7 @@ El MCP (Model Context Protocol) deja que Claude Code hable directo con tu proyec
 **Paso 4.1 — Obtener el comando desde el Dashboard**
 
 1. Entrá a [supabase.com/dashboard](https://supabase.com/dashboard) y abrí tu proyecto.
-2. En la home del proyecto, expandí el botón **Connect** (arriba a la derecha).
+2. En la home del proyecto, expandí el botón **Connect** (en la navbar superior).
 3. Tab **MCP** → en **Feature Groups** marcá **todas** las opciones (account, branching, database, debugging, development, docs, functions, storage).
 4. Copiá el comando del **Paso 1** (ya viene con tu `project_ref`).
 
@@ -93,10 +93,10 @@ Esto crea `.mcp.json` en la raíz del repo (scope `project` = queda compartido c
 
 **Paso 4.3 — Autenticar**
 
-Abrí Claude Code y corré:
+Desde la terminal (misma carpeta del proyecto):
 
-```
-/mcp
+```bash
+claude /mcp
 ```
 
 Seguí las instrucciones en consola para loguearte en Supabase. Una sola vez.
@@ -109,7 +109,7 @@ Instrucciones y scripts listos para que Claude trabaje mejor con Supabase:
 npx skills add supabase/agent-skills
 ```
 
-**Verificar que funciona:** en Claude Code escribí `/mcp`. Debería listar `supabase` como conectado.
+**Verificar que funciona:** corré `claude /mcp` de nuevo. Debería listar `supabase` como conectado.
 
 ### 5. Abrir Claude Code
 
