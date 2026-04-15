@@ -45,8 +45,19 @@ Esto descarga las librerías necesarias. Demora 1-2 minutos la primera vez.
 
 Copiá el archivo de ejemplo:
 
+**Mac / Linux:**
 ```bash
 cp .env.example .env.local
+```
+
+**Windows (CMD):**
+```cmd
+copy .env.example .env.local
+```
+
+**Windows (PowerShell):**
+```powershell
+Copy-Item .env.example .env.local
 ```
 
 Abrí `.env.local` y pegá las claves de tu proyecto Supabase:
