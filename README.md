@@ -27,7 +27,7 @@ Cloná este repo, abrí Claude Code, describí tu idea en una frase y Claude te 
 ### 1. Clonar el repo
 
 ```bash
-git clone https://github.com/TU-USUARIO/inicializador-scalefy.git mi-proyecto
+git clone https://github.com/scalefy-system/inicializador-scalefy.git mi-proyecto
 cd mi-proyecto
 ```
 

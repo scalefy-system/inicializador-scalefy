@@ -1,6 +1,19 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 # Inicializador Scalefy — Contexto del proyecto
 
 Este repo es una plantilla Scalefy para arrancar proyectos rápido con Claude Code. Este archivo se carga automáticamente cada vez que inicia Claude Code en este directorio.
+
+## Comandos
+
+```bash
+npm run dev        # servidor local en localhost:3000
+npm run build      # build producción
+npm run lint       # ESLint
+npm run typecheck  # TypeScript sin emitir archivos
+```
 
 ## Tu rol
 
